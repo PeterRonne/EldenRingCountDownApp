@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elden Ring Countdown</title>
+        <!-- cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"
+            integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+        <!-- own styles -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <!-- <img class="page-title" src="assets/Eldenring.png" alt="Elden Ring"> -->
+            <table class="countdown-container">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="counter-title"> DAYS UNTIL RELEASE</h3>
+                        </td>
+                    </tr>
+                    <tr class="timer">
+                        <td id="Days"></td>
+                        <td id="Hours"></td>
+                        <td id="Minutes"></td>
+                        <td id="Seconds"></td>
+                    </tr>
+                    <tr class="type">
+                        <td>Days</td>
+                        <td>Hours</td>
+                        <td>Minutes</td>
+                        <td>Seconds</td>
+                    </tr>
+            </table>
+            </tbody>
+            <div class="background-vale"></div>
+            <div id="particles-js"></div>
+        </div>
+        <script src="js/countdown.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
