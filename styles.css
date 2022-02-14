@@ -45,7 +45,7 @@ picture {
 /* My styles */
 
 .container {
-    background: url('assets/Wallpaper_1920x1080_screenshot01.webp') no-repeat center center fixed;
+    background: url('images/Wallpaper_1920x1080_screenshot01.webp') no-repeat center center fixed;
     background-size: cover;
     background-position: bottom;
     min-height: 100vh;
