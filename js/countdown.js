@@ -27,4 +27,4 @@ const eldenRingCountDown = function () {
     setTimeout(eldenRingCountDown, 1000)
 }
 
-window.onload = eldenRingCountDown()
+setTimeout(window.onload = eldenRingCountDown(), 2000)

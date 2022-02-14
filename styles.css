@@ -33,15 +33,15 @@ picture {
 /* My styles */
 
 .container {
-    background: url('images/Wallpaper_1920x1080_screenshot01.webp') no-repeat center center fixed;
+    background: url('images/ErdThree.webp') no-repeat center center fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center bottom;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
-    filter: saturate(150%);
+    filter: saturate(160%);
 }
 
 .countdown-container {
@@ -76,8 +76,7 @@ td {
     left: 0;
     min-height: 100vh;
     min-width: 100vw;
-    background-color: rgba(90, 44, 0, 0.144);
-    z-index: 0;
+    background-color: rgba(90, 44, 0, 0.2);
 }
 
 /* particles */
@@ -88,7 +87,6 @@ td {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 0;
 }
 
 /* media */
