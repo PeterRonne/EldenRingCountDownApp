@@ -99,13 +99,6 @@ td {
     z-index: 0;
 }
 
-/* .page-title {
-    position: relative;
-    z-index: 1;
-    margin: auto;
-    padding: 0 20px;
-} */
-
 /* particles */
 
 #particles-js {
@@ -163,3 +156,5 @@ td {
         font-size: 2.5rem;
     }
 }
+
+/* The end... */
