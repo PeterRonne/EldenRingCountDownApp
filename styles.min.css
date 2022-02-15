@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
 *,
-*::before,
-*::after {
+::after,
+::before {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
 
 body {
@@ -17,25 +15,21 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    color: rgb(240, 240, 240);
+    color: #f0f0f0
 }
 
 canvas {
-    display: block;
+    display: block
 }
 
 img,
 picture {
     max-width: 100%;
-    display: block;
+    display: block
 }
 
-/* Reset ends here.. */
-
-/* My styles */
-
 .container {
-    background: url('images/ErdThree.webp') no-repeat center center fixed;
+    background: url(images/ErdThree.webp) no-repeat center center fixed;
     background-size: cover;
     background-position: center bottom;
     min-height: 100vh;
@@ -43,7 +37,7 @@ picture {
     grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
-    filter: saturate(160%);
+    filter: saturate(160%)
 }
 
 .countdown-container {
@@ -51,26 +45,24 @@ picture {
     justify-self: center;
     padding: 15px 15px;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
 
 td {
     text-align: center;
-    padding: 0 0.5rem;
+    padding: 0 .5rem
 }
 
 .counter-title {
     text-align: center;
     font-size: 1.5rem;
-    padding: 0;
+    padding: 0
 }
 
 .timer,
 .type {
-    font-size: 1rem;
+    font-size: 1rem
 }
-
-/* Alternatives */
 
 .background-vale {
     position: absolute;
@@ -78,66 +70,58 @@ td {
     left: 0;
     min-height: 100vh;
     min-width: 100vw;
-    background-color: rgba(90, 44, 0, 0.2);
+    background-color: rgba(90, 44, 0, .2)
 }
-
-/* particles */
 
 #particles-js {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100vh
 }
 
-/* media */
-
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width:500px) {
     .countdown-container {
-        padding: 25px 25px;
+        padding: 25px 25px
     }
 
     .counter-title {
-        font-size: 2rem;
+        font-size: 2rem
     }
 
     .timer,
     .type {
-        font-size: 1.5rem;
+        font-size: 1.5rem
     }
 }
 
-@media only screen and (min-width: 724px) {
+@media only screen and (min-width:724px) {
     .countdown-container {
-        padding: 40px 25px;
+        padding: 40px 25px
     }
 
     .counter-title {
-        font-size: 3rem;
+        font-size: 3rem
     }
 
     .timer,
     .type {
-        font-size: 2rem;
+        font-size: 2rem
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
     .countdown-container {
-        padding: 40px 25px;
+        padding: 40px 25px
     }
 
     .counter-title {
-        font-size: 4rem;
+        font-size: 4rem
     }
 
     .timer,
     .type {
-        font-size: 2.5rem;
+        font-size: 2.5rem
     }
 }
-
-/* The end... */
-
-/* DeBugging  */
