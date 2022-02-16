@@ -18,50 +18,22 @@
 
     <body>
         <div class="container">
-            <table class="countdown-container">
-                <tbody>
-                    <tr>
-                        <td colspan="4" class="counter-title"> DAYS UNTIL RELEASE</h3>
-                        </td>
-                    </tr>
-                    <tr class="timer">
-                        <td id="Days"></td>
-                        <td id="Hours"></td>
-                        <td id="Minutes"></td>
-                        <td id="Seconds"></td>
-                    </tr>
-                    <tr class="type">
-                        <td>Days</td>
-                        <td>Hours</td>
-                        <td>Minutes</td>
-                        <td>Seconds</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <!-- alternetive version -->
-
-            <!-- <table class="countdown-container">
-                <tbody>
-                    <tr>
-                        <td colspan="4" class="counter-title"> DAYS UNTIL RELEASE</h3>
-                        </td>
-                    </tr>
-                    <tr class="timer">
-                        <td id="Days"></td>
-                        <td id="Hours"></td>
-                        <td id="Minutes"></td>
-                        <td id="Seconds"></td>
-                    </tr>
-                    <tr class="type">
-                        <td>Days </td>
-                        <td id="Days"></td>
-                        <td>Hours</td>
-                        <td>Minutes</td>
-                        <td>Seconds</td>
-                    </tr>
-                </tbody>
-            </table> -->
+            <div class="countdown-container">
+                <ul class="row">
+                    <li>
+                        <p class="type">Days <span class="timer" id="Days"></span></p>
+                    </li>
+                    <li>
+                        <p class="type">Hours <span class="timer" id="Hours"></span></p>
+                    </li>
+                    <li>
+                        <p class="type">Minutes <span class="timer" id="Minutes"></span></p>
+                    </li>
+                    <li>
+                        <p class="type">Seconds <span class="timer" id="Seconds"></span></p>
+                    </li>
+                </ul>
+            </div>
             <div class="background-vale"></div>
             <div id="particles-js"></div>
         </div>
