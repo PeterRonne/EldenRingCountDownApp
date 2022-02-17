@@ -12,29 +12,30 @@
         <title>Elden Ring Countdown</title>
         <link rel="icon" type="image/ico" href="images/favicon.ico">
         <!-- own styles -->
-        <link rel="preload" href="styles.min.css" as="style">
-        <link rel="stylesheet" href="styles.min.css">
+        <link rel="preload" href="styles.css" as="style">
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <div class="container">
-            <div class="countdown-container">
-                <ul class="row">
-                    <li>
-                        <p class="type">Days <span class="timer" id="Days"></span></p>
-                    </li>
-                    <li>
-                        <p class="type">Hours <span class="timer" id="Hours"></span></p>
-                    </li>
-                    <li>
-                        <p class="type">Minutes <span class="timer" id="Minutes"></span></p>
-                    </li>
-                    <li>
-                        <p class="type">Seconds <span class="timer" id="Seconds"></span></p>
-                    </li>
-                </ul>
+            <div class="background-vale">
+                <div class="countdown-container">
+                    <ul class="row">
+                        <li>
+                            <p class="type"><span class="timer" id="Days"></span>Days </p>
+                        </li>
+                        <li>
+                            <p class="type"><span class="timer" id="Hours"></span>Hours </p>
+                        </li>
+                        <li>
+                            <p class="type"><span class="timer" id="Minutes"></span>Minutes </p>
+                        </li>
+                        <li>
+                            <p class="type"><span class="timer" id="Seconds"></span>Seconds </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="background-vale"></div>
             <div id="particles-js"></div>
         </div>
         <script src="js/countdown.js" defer></script>
