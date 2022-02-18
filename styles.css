@@ -69,8 +69,8 @@ picture {
 
 span.timer {
     position: relative;
-    font-size: 2rem;
-    padding: 0 0.5rem;
+    font-size: 1.5rem;
+    padding: 0 0.2rem;
     color: #FBDF83;
     /* border-left: solid 1px white; */
 }
@@ -104,42 +104,41 @@ span.timer {
 
 @media only screen and (min-width: 500px) {
 
-    .counter-title {
-        font-size: 2rem;
-    }
-
-    .timer,
     .type {
         font-size: 1.5rem
+    }
+
+    span.timer {
+        font-size: 2.5rem;
+        padding: 0 0.5rem;
     }
 }
 
 @media only screen and (min-width: 724px) {
+    /* 
+    .container {
+        background: url('images/EldenRingCounterBG.webp') no-repeat center center;
+    } */
 
-    .counter-title {
-        font-size: 3rem;
-    }
-
-    .timer,
     .type {
         font-size: 2rem;
+    }
+
+    span.timer {
+        font-size: 3rem;
     }
 }
 
 @media only screen and (min-width: 1200px) {
 
-    .counter-title {
-        font-size: 4rem;
-    }
-
-    .timer,
     .type {
         font-size: 3rem;
     }
 
-    .timer {
-        top: 20px;
+    span.timer {
+        font-size: 3.5rem;
     }
+
 }
 
 /* The end... */
