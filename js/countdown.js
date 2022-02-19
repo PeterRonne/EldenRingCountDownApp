@@ -1,6 +1,6 @@
 'use strict'
 
-const eldenRingRelease = new Date('Feb 25 2022')
+const eldenRingRelease = new Date('Feb 25 2022 6:00:00')
 
 const eldenRingCountDown = function () {
     let currentDate = new Date()
@@ -26,5 +26,6 @@ const eldenRingCountDown = function () {
 
     setTimeout(eldenRingCountDown, 1000)
 }
+
 
 window.onload = eldenRingCountDown()
