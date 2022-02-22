@@ -10,32 +10,32 @@
         <meta name="theme-color" content="#0D1117">
         <meta name="author" content="Peter Rønne">
         <title>Elden Ring Countdown</title>
-        <link rel="icon" type="image/ico" href="images/favicon.ico">
+        <link rel="icon" type="image/ico" href="images/fav.png">
         <!-- own styles -->
-        <link rel="preload" href="styles.css" as="style">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="preload" href="styles.min.css" as="style">
+        <link rel="stylesheet" href="styles.min.css">
     </head>
 
     <body>
         <div class="container">
-            <div class="background-vale">
-                <div class="countdown-container">
-                    <ul class="row">
-                        <li>
-                            <p class="type"><span class="timer" id="Days"></span>Days </p>
-                        </li>
-                        <li>
-                            <p class="type"><span class="timer" id="Hours"></span>Hours </p>
-                        </li>
-                        <li>
-                            <p class="type"><span class="timer" id="Minutes"></span>Minutes </p>
-                        </li>
-                        <li>
-                            <p class="type"><span class="timer" id="Seconds"></span>Seconds </p>
-                        </li>
-                    </ul>
-                </div>
+
+            <div class="countdown-container">
+                <ul class="row">
+                    <li>
+                        <p class="type"><span class="timer" id="Days"></span>Days </p>
+                    </li>
+                    <li>
+                        <p class="type"><span class="timer" id="Hours"></span>Hours </p>
+                    </li>
+                    <li>
+                        <p class="type"><span class="timer" id="Minutes"></span>Minutes </p>
+                    </li>
+                    <li>
+                        <p class="type"><span class="timer" id="Seconds"></span>Seconds </p>
+                    </li>
+                </ul>
             </div>
+
             <div id="particles-js"></div>
         </div>
         <script src="js/countdown.js" defer></script>

@@ -40,10 +40,14 @@ picture {
 /* My styles */
 
 .container {
-    background: url('images/Confesser.webp') no-repeat center center;
+    background: url('images/117gdag56a.webp') no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     filter: saturate(160%);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    align-items: center;
 }
 
 .countdown-container {
@@ -84,10 +88,6 @@ span.timer {
     min-height: 12vh;
     min-width: 100vw;
     background-color: rgb(26, 26, 26);
-    display: grid;
-    grid-template-columns: 1fr;
-    align-content: center;
-    align-items: center;
 }
 
 /* particles */
