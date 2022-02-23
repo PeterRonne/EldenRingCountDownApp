@@ -1,6 +1,6 @@
 'use strict'
 
-const eldenRingRelease = new Date('Feb 25 2022 6:00:00')
+const eldenRingRelease = new Date('Feb 25 2022 00:00:00')
 
 const eldenRingCountDown = function () {
     let currentDate = new Date()
